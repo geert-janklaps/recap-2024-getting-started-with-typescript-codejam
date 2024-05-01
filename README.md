@@ -36,4 +36,4 @@ None at this time
 
 If you can spare a couple of minutes at the end of the session, please help me improve for next time by giving me some feedback.
 
-Simply use this [Give Feedback](https://github.com/geert-janklaps/recap-2024-getting-started-with-typescript-codejam/issues/new?assignees=&labels=feedback&template=session-feedback-template.md&title=Feedback) link to create a special "feedback" issue, and follow the instructions in there.
+Simply use this [Give Feedback](https://github.com/geert-janklaps/recap-2024-getting-started-with-typescript-codejam/issues/new?assignees=geert-janklaps&labels=feedback&template=session-feedback-template.md&title=Feedback) link to create a special "feedback" issue, and follow the instructions in there.

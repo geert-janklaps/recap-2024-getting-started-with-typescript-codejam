@@ -3,7 +3,7 @@ name: Session Feedback Template
 about: To give feedback on the session
 title: Session Feedback
 labels: feedback
-assignees: 'geertjanklaps'
+assignees: 'geert-janklaps'
 
 ---
 
