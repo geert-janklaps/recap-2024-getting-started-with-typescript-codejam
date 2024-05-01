@@ -15,13 +15,17 @@ There are hardware, software and service prerequisites for participating in this
 ### Services
 
 * Get a free SAP Business Technology Platform trial account (if you don't already have one):
-  * [Tutorial: Get an SAP BTP Account for Tutorials](https://developers.sap.com/tutorials/btp-cockpit-setup.html)
+  * 👉 [Get an SAP BTP Account for Tutorials](https://developers.sap.com/tutorials/btp-cockpit-setup.html)
+* SAP Business Application Studio (Trial, Free-tier, Productive)
+  * 👉 [Set Up SAP Business Application Studio for Development (Trial / Free-tier)](https://developers.sap.com/tutorials/appstudio-onboarding.html)
+  * 👉 [Create dev space in SAP Business Application Studio (ONLY STEP 1 is needed for this workshop)](https://developers.sap.com/tutorials/hana-cloud-cap-create-project.html)
+  * 👉 [Add TypeScript support for CAP](https://cap.cloud.sap/docs/node.js/typescript#enable-typescript-support)
 
 ## Prerequisites for Performing the Exercises Locally
 
-In this exercise variant, you will install all development tools locally in your laptop and develop test there.
+In this exercise variant, you will install all development tools locally in your laptop and develop / test there.
 
-There is also an option that allows you to use VSCode locally but remotely connect it to your Business Application Studio dev space. This avoids the need to install all the prerequisites to local development. To read more about this option, [see here](https://community.sap.com/t5/technology-blogs-by-members/access-sap-business-application-studio-as-a-remote-from-visual-studio-code/ba-p/13565427).
+There is also an option that allows you to use VS Code locally but remotely connect it to your Business Application Studio dev space. This avoids the need to install all the prerequisites to local development. To read more about this option, [see here](https://community.sap.com/t5/technology-blogs-by-members/access-sap-business-application-studio-as-a-remote-from-visual-studio-code/ba-p/13565427).
 
 ### Local Hardware
 
@@ -29,14 +33,14 @@ There is also an option that allows you to use VSCode locally but remotely conne
 
 ### Local Software
 
-* Ensure that you have [Node.js](https://nodejs.org/en/download/) version [18](https://nodejs.org/dist/latest-v18.x/) or [20](https://nodejs.org/dist/latest-v20.x/) installed locally. In case of problems, see the [Troubleshooting guide for CAP](https://cap.cloud.sap/docs/get-started/troubleshooting#npm-installation).
+* 👉 Ensure that you have [Node.js](https://nodejs.org/en/download/) version [18](https://nodejs.org/dist/latest-v18.x/) or [20](https://nodejs.org/dist/latest-v20.x/) installed locally. In case of problems, see the [Troubleshooting guide for CAP](https://cap.cloud.sap/docs/get-started/troubleshooting#npm-installation).
   
-* [Add CAP tooling](https://cap.cloud.sap/docs/get-started/jumpstart#_2-install-cap-s-cds-dk)
+* 👉 [Add CAP tooling](https://cap.cloud.sap/docs/get-started/jumpstart#_2-install-cap-s-cds-dk)
 
-* [Add TypeScript support for CAP](https://cap.cloud.sap/docs/node.js/typescript#enable-typescript-support)
+* 👉 [Add TypeScript support for CAP](https://cap.cloud.sap/docs/node.js/typescript#enable-typescript-support)
 
-* [Install Microsoft Visual Studio Code + Recommended Extensions](https://cap.cloud.sap/docs/get-started/jumpstart#_6-install-visual-studio-code)
+* 👉 [Install Microsoft VS Code + Recommended Extensions](https://cap.cloud.sap/docs/get-started/jumpstart#_6-install-visual-studio-code)
 
-* [Install SAP Fiori tools Extension Pack](https://marketplace.visualstudio.com/items?itemName=SAPSE.sap-ux-fiori-tools-extension-pack)
+* 👉 [Install SAP Fiori tools Extension Pack](https://marketplace.visualstudio.com/items?itemName=SAPSE.sap-ux-fiori-tools-extension-pack)
 
-* [Install SAP Cloud MTA Build Tool](https://sap.github.io/cloud-mta-build-tool/download/)  
+* 👉 [Install SAP Cloud MTA Build Tool](https://sap.github.io/cloud-mta-build-tool/download/)  

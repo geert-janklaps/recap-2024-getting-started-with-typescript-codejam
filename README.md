@@ -4,7 +4,7 @@
 
 This repository contains the material for the hands-on workshop on getting started with SAP Cloud Application Programming Model and TypeScript to create a Full-Stack Application. In this hands-on workshop we will learn how to create a new SAP Cloud Application Programming Model-based application (including SAP Fiori Elements app) using TypeScript and run it locally in a test launchpad.
 
-## Requirements
+## Exercises
 
 The requirements to follow the exercises in this repository, including hardware and software, are detailed in the [prerequisites](prerequisites.md) file.
 
@@ -24,8 +24,16 @@ If you finish an exercise early, please resist the temptation to continue with t
 
 Here's an overview of the exercises in this hands-on workshop.
 
-* Make certain that you have successfully completed all the [prerequisites](prerequisites.md)
+* [Prerequisites (choose one variant)](prerequisites.md) (15min)
+* [Exercise 1 - Creating a sample project](exercises/ex1/README.md) (10min)
+* [Exercise 2 - Transforming the sample project to TypeScript](exercises/ex2/README.md) (10min)
 
 ## Known Issues
 
 None at this time
+
+## Feedback
+
+If you can spare a couple of minutes at the end of the session, please help me improve for next time by giving me some feedback.
+
+Simply use this [Give Feedback](https://github.com/geert-janklaps/recap-2024-getting-started-with-typescript-codejam/issues/new?assignees=&labels=feedback&template=session-feedback-template.md&title=Feedback) link to create a special "feedback" issue, and follow the instructions in there.
