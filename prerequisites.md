@@ -34,6 +34,8 @@ There is also an option that allows you to use VS Code locally but remotely conn
 ### Local Software
 
 * 👉 Ensure that you have [Node.js](https://nodejs.org/en/download/) version [18](https://nodejs.org/dist/latest-v18.x/) or [20](https://nodejs.org/dist/latest-v20.x/) installed locally. In case of problems, see the [Troubleshooting guide for CAP](https://cap.cloud.sap/docs/get-started/troubleshooting#npm-installation).
+
+* 👉 [Install Git](https://developers.sap.com/tutorials/btp-app-prepare-dev-environment-cap.html#21385226-8ed8-48c4-bc9e-97c38562ce93)
   
 * 👉 [Add CAP tooling](https://cap.cloud.sap/docs/get-started/jumpstart#_2-install-cap-s-cds-dk)
 
@@ -42,5 +44,3 @@ There is also an option that allows you to use VS Code locally but remotely conn
 * 👉 [Install Microsoft VS Code + Recommended Extensions](https://cap.cloud.sap/docs/get-started/jumpstart#_6-install-visual-studio-code)
 
 * 👉 [Install SAP Fiori tools Extension Pack](https://marketplace.visualstudio.com/items?itemName=SAPSE.sap-ux-fiori-tools-extension-pack)
-
-* 👉 [Install SAP Cloud MTA Build Tool](https://sap.github.io/cloud-mta-build-tool/download/)  
