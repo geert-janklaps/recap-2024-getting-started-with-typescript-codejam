@@ -25,7 +25,7 @@ If you finish an exercise early, please resist the temptation to continue with t
 Here's an overview of the exercises in this hands-on workshop.
 
 * [Prerequisites (choose one variant)](prerequisites.md) (15min)
-* [Exercise 1 - Creating a sample project](exercises/ex1/README.md) (10min)
+* [Exercise 1 - Cloning the exercise repository & running the base project](exercises/ex1/README.md) (15min)
 * [Exercise 2 - Transforming the sample project to TypeScript](exercises/ex2/README.md) (10min)
 
 ## Known Issues
