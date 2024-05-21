@@ -1,0 +1,24 @@
+@server = http://localhost:4004
+
+### ------------------------------------------------------------------------
+# Get service info
+GET {{server}}/odata/v4/author
+
+
+### ------------------------------------------------------------------------
+# Get $metadata document
+GET {{server}}/odata/v4/author/$metadata
+
+
+### ------------------------------------------------------------------------
+# Get list of authors and expand books and their genre
+GET {{server}}/odata/v4/author/Authors?$expand=books($expand=genre)
+
+### ------------------------------------------------------------------------
+# Update book stock
+POST {{server}}/odata/v4/author/Books(ID=201,IsActiveEntity=true)/updateStock
+Content-Type: application/json
+
+{ 
+    "quantity": 10 
+}
