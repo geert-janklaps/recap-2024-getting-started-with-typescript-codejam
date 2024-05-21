@@ -50,4 +50,6 @@ The terminal will open in the root of the cloned repository. During the session 
 
 👉  Open the author-service.http file and try-out some of the requests by clicking the "Send Request" buttons
 
-![SAP BAS - Clone from Git](images/9.png)
+![SAP BAS - Testing the service](images/9.png)
+
+👉  Terminate the running server with CTRL + C (or CMD + C on MacOS)

@@ -19,7 +19,7 @@ There are hardware, software and service prerequisites for participating in this
 * SAP Business Application Studio (Trial, Free-tier, Productive)
   * 👉 [Set Up SAP Business Application Studio for Development (Trial / Free-tier)](https://developers.sap.com/tutorials/appstudio-onboarding.html)
   * 👉 [Create dev space in SAP Business Application Studio (ONLY STEP 1 is needed for this workshop)](https://developers.sap.com/tutorials/hana-cloud-cap-create-project.html)
-  * 👉 [Add TypeScript support for CAP](https://cap.cloud.sap/docs/node.js/typescript#enable-typescript-support)
+  * 👉 [Add TypeScript support for CAP (ONLY STEP 1)](https://cap.cloud.sap/docs/node.js/typescript#enable-typescript-support)
 
 ## Prerequisites for Performing the Exercises Locally
 
@@ -39,7 +39,7 @@ There is also an option that allows you to use VS Code locally but remotely conn
   
 * 👉 [Add CAP tooling](https://cap.cloud.sap/docs/get-started/jumpstart#_2-install-cap-s-cds-dk)
 
-* 👉 [Add TypeScript support for CAP](https://cap.cloud.sap/docs/node.js/typescript#enable-typescript-support)
+* 👉 [Add TypeScript support for CAP (ONLY STEP 1)](https://cap.cloud.sap/docs/node.js/typescript#enable-typescript-support)
 
 * 👉 [Install Microsoft VS Code + Recommended Extensions](https://cap.cloud.sap/docs/get-started/jumpstart#_6-install-visual-studio-code)
 
