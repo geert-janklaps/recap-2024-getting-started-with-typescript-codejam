@@ -1,12 +1,14 @@
 import cds from '@sap/cds';
 
+// Re-usable type for casting the total stock query to
 type totalStockType = Array<{totalStock: number, author_ID: number}>;
 
 export default class AuthorService extends cds.ApplicationService {
 
   async init() {
-    
-    const { Authors,Books, Book } = await import('#cds-models/AuthorService')
+
+    // Reflect definitions from the service's CDS model
+    const { Authors, Books, Book } = await import('#cds-models/AuthorService')
 
     this.after('READ', Authors, async (authors) => {
 
