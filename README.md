@@ -24,9 +24,11 @@ If you finish an exercise early, please resist the temptation to continue with t
 
 Here's an overview of the exercises in this hands-on workshop.
 
-* [Prerequisites (choose one variant)](prerequisites.md) (15min)
+* [Prerequisites (choose one variant)](prerequisites.md) (20min)
 * [Exercise 1 - Cloning the exercise repository & running the base project](exercises/ex1/README.md) (15min)
-* [Exercise 2 - Transforming the sample project to TypeScript](exercises/ex2/README.md) (10min)
+* [Exercise 2 - Transforming the sample project to TypeScript](exercises/ex2/README.md) (20min)
+* [Exercise 3 - Adding a TypeScript Fiori Elements app](exercises/ex3/README.md) (15min)
+* [Exercise 4 - Adding a local launchpad to test our TypeScript solution end-to-end](exercises/ex4/README.md) (15min)
 
 ## Known Issues
 

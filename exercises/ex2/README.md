@@ -79,3 +79,16 @@ If the command asks to install package @cap-js/cds-typer confirm with 'y':
 
 ## Changing the service implementation from JavaScript to TypeScript
 
+Changing the implementation from JavaScript to TypeScript is quite easy, changing the service implementation file extension is sufficient.
+
+👉 Rename the service implementation file from author-service.js to author-service.ts
+
+![CAP Project - Rename service implementation file](images/8.png)
+
+👉 Open the service implementation file (author-service.ts)
+
+Notice a lot of typing errors? 
+This is exactly what we're expecting and why we're using TypeScript! Let's solve them in the next steps!
+
+![CAP Project - Rename service implementation file](images/9.png)
+
