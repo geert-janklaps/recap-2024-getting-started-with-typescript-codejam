@@ -14,9 +14,7 @@ The material consists of a series of exercises. Each exercise is contained in a 
 
 ### Following the exercises
 
-During the hands-on workshop you will complete each exercise one at a time. At the end of each exercise there are questions; these are designed to help you think about the content just covered, and are to be discussed with the entire hands-on workshop class, led by the instructor, when everyone has finished that exercise.
-
-If you finish an exercise early, please resist the temptation to continue with the next one. Instead, explore what you've just done and see if you can find out more about the subject that was covered. That way we all stay on track together and can benefit from some reflection via the questions (and answers).
+During the hands-on workshop you will complete each exercise one at a time. Everyone can work in his own pace and ask questions wherever needed. Each exercise has a time indication mentioned, the instructors will do time keeping to make sure you are on track. Instead of just executing the steps mentioned in the guides, I suggest you also have a look at the mentioned documents to get the broader context on why we're doing the things in a certain way.
 
 > The exercises are written in a conversational way; this is so that they have enough context and information to be completed outside the hands-on session itself. To help you navigate and find what you have to actually do next, there are pointers like this 👉 throughout that indicate the things you have to actually do (as opposed to just read for background information).
 

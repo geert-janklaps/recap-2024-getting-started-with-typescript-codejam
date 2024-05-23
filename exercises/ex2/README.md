@@ -90,5 +90,50 @@ Changing the implementation from JavaScript to TypeScript is quite easy, changin
 Notice a lot of typing errors? 
 This is exactly what we're expecting and why we're using TypeScript! Let's solve them in the next steps!
 
-![CAP Project - Rename service implementation file](images/9.png)
+![CAP Project - Observing the typing errors](images/9.png)
 
+## Converting the service implementation code to valid TypeScript
+
+For the sake of simplicity, we'll just copy the solution code and in the handler and we'll highlight the changes in this step.
+
+👉 Delete the contents of the current author-service.ts file
+
+👉 Copy the contents from the solution [author-service.ts](../../solution/recap-typescript-workshop/srv/author-service.ts) and paste them in your own author-service.ts file
+
+### Comparing the original JavaScript implementation vs TypeScript implementation
+
+In this part of the tutorial we'll highlight the most important changes between the original JavaScript implementation and the new TypeScript implementation. I've intentionally added spacings in both files so that each statement of the original implementation is in the exact same line as in the TypeScript implementation so it can easily be compared.
+
+![CAP Project - Comparing JavaScript vs TypeScript](images/10.png)
+
+In this overview, I'll use the source code line numbers and highlight the most important changes.
+
+- line 1: Importing the CDS package using the import statement instead of the require statement. (Want to understand the difference between require & import? Check out following [link](https://medium.com/@interviewer.live/require-vs-import-in-node-js-understanding-the-difference-e45ae1d2e2d3))
+
+- line 4: Re-usable type for the result of the total stock query (line 15) (used a re-usable type for illustration purposes, could have been an inline declaration)
+
+- line 6: Replaced module.exports with export default statement (Want to understand the difference between module.exports & export default? Check out following [link](https://medium.com/@devq/the-difference-between-module-export-and-export-default-740039fed547))
+
+- line 11: This is where it gets interesting, in this statement we're importing the generated types using a dynamic import statement to reference further down the line. ([Documentation](https://cap.cloud.sap/docs/tools/cds-typer#subpath-imports) on why to use dynamic imports instead of static imports)
+
+- Line 13 & 38: Notice how the registration of the handlers change from a string-based entity to an object we imported in line 11 (e.g. 'Authors' becomes Authors)? By doing so CAP is able to make the request objects typed, which allows us to use code completion as well!
+
+- Line 20 & 43: Notice how the entities are referenced by their imported objects instead of a string-based implementation? CAP is able to determine the right entity based on the imported object.
+
+👉 Try-out the code completion by e.g. re-doing the same test as we did in step one
+
+![CAP Project - Sample Handlers - Code Assistance](images/11.png)
+
+## Running the project with TypeScript
+
+👉  We're all set to launch our project & start testing our updated logic with TypeScript, launch the project by running the watch command and wait for the server to start.
+
+    cds-ts watch
+
+![CAP Project - Running the project again with cds-ts](images/12.png)
+
+Notice that the cds-ts command now loads our TypeScript service implementation?
+
+👉 Terminate the running server with CTRL + C (or CMD + C on MacOS)
+
+This concludes the most important part of this workshop, we've now succesfully converted our existing JavaScript project to TypeScript, introducing type-safety & code-completion for our development! In the next exercises we'll add a TypeScript-based Fiori Elements Template to the project and run both the CAP backend and UI5 frontend with TypeScript in a local launchpad.
