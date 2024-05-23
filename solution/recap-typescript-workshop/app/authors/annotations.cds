@@ -1,0 +1,1 @@
+using AuthorService as service from '../../srv/author-service';

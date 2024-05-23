@@ -12,12 +12,20 @@
   "devDependencies": {
     "@cap-js/sqlite": "^1",
     "@sap/cds-dk": "^7",
-    "@cap-js/cds-typer": ">=0.1"
+    "@cap-js/cds-typer": ">=0.1",
+    "cds-plugin-ui5": "^0.6.13"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "watch-authors": "cds watch --open authors/index.html?sap-ui-xx-viewCache=false --livereload false"
   },
   "imports": {
     "#cds-models/*": "./@cds-models/*/index.js"
-  }
+  },
+  "workspaces": [
+    "app/*"
+  ],
+  "sapux": [
+    "app/authors"
+  ]
 }

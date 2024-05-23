@@ -3,3 +3,5 @@
 */
 using from './common';
 using from './author-app';
+
+using from './authors/annotations';
