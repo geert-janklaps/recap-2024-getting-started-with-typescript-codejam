@@ -72,7 +72,23 @@
 👉 Explore the generated project, notice that the project is properly generated using TypeScript (Component.ts & tsconfig.json files present)
 
 ![CAP Project - Sample Handlers](images/10.png)
+
+👉 Open up a new terminal window (or re-use one if you still have one open)
+
 ![CAP Project - Sample Handlers](images/11.png)
+
+👉  We're all set to launch our project & start testing our fullstack application with TypeScript, launch the project again by running the watch command and wait for the server to start.
+
+    cds-ts watch
+
+👉 Notice that the CDS watch command now outputs some additional information from the cds-ui5-plugin (live reload & live transpilation enabled)
+
 ![CAP Project - Sample Handlers](images/12.png)
+
+👉 Open the CAP Service & open the generated application
+
 ![CAP Project - Sample Handlers](images/13.png)
+
+👉 Try-out the application
+
 ![CAP Project - Sample Handlers](images/14.png)
