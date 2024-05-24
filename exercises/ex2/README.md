@@ -1,4 +1,4 @@
-# Transforming the sample project to TypeScript
+# Exercise 2 - Transforming the sample project to TypeScript
 
 ## Reviewing the current service implementation
 

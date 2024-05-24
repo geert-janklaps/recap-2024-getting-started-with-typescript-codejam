@@ -1,4 +1,4 @@
-# Cloning the exercise repository & running the base project
+# Exercise 1 - Cloning the exercise repository & running the base project
 
 During this session we'll be working on an existing project which contains a basic data model and an existing service implementation in JavaScript. In this session we'll transform the existing JavaScript implementation into TypeScript and an SAPUI5 application to the project (also using TypeScript).
 
