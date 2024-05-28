@@ -106,7 +106,7 @@ In this part of the tutorial we'll highlight the most important changes between 
 
 ![CAP Project - Comparing JavaScript vs TypeScript](images/10.png)
 
-In this overview, I'll use the source code line numbers and highlight the most important changes.
+In this overview, I'll use the source code line numbers and highlight the most important changes. (comparison is done using above screenshot, the actual files don't contain the additional spacing)
 
 - line 1: Importing the CDS package using the import statement instead of the require statement. (Want to understand the difference between require & import? Check out following [link](https://medium.com/@interviewer.live/require-vs-import-in-node-js-understanding-the-difference-e45ae1d2e2d3))
 
