@@ -85,6 +85,18 @@
 
 ![CAP Project - Sample Handlers](images/12.png)
 
+👉 Sometimes it can happen that after we added the Fiori application some things break in the npm installation. You will see errors occuring in the terminal when running the "cds-ts watch" command like these:
+
+![CAP Project - Sample Handlers](images/15.png)
+
+If you see these errors above execute the following commands in the terminal:
+
+    npm ci
+
+    npm install
+
+    cds-ts watch
+    
 👉 Open the CAP Service & open the generated application
 
 ![CAP Project - Sample Handlers](images/13.png)
